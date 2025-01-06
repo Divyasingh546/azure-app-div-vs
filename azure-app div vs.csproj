@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_div_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/b9eafe1c-7a64-4faa-9049-ecc8ab7e58e6/resourceGroups/az-course-rg/providers/microsoft.insights/components/az-course-Div</ApplicationInsightsResourceId>
+    <UserSecretsId>5f7de434-cf7f-4dbe-9f2f-3e61075986fc</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+  </ItemGroup>
 
 </Project>
